@@ -9,7 +9,7 @@
   <url>http://maven.apache.org</url>
   <properties>
 		
-	   <sonar.host.url>http://3.111.245.114:9000/</sonar.host.url>
+	   <sonar.host.url>http://13.126.134.119:9000/</sonar.host.url>
 	   <sonar.login>squ_a7a22bdd6c12d9c06242e529f44c0b34aac6a841</sonar.login>
 		
   </properties>
@@ -21,6 +21,19 @@
       <version>3.8.1</version>
     </dependency>
   </dependencies>
+   <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>web-app Release Nexus Repository</name>
+	      <url>http://65.2.191.203:8081/repository/web-app-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>web-appSnapshot Nexus Repository</name>
+	      <url>http://65.2.191.203:8081/repository/web-app-snapshot/</url>
+	    </snapshotRepository>
   <build>
     <finalName>01-maven-web-app</finalName>
     <plugins>
