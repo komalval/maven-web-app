@@ -21,7 +21,7 @@
       <version>3.8.1</version>
     </dependency>
   </dependencies>
-   <distributionManagement>
+  <distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
@@ -34,7 +34,8 @@
 	      <name>web-appSnapshot Nexus Repository</name>
 	      <url>http://65.2.191.203:8081/repository/web-app-snapshot/</url>
 	    </snapshotRepository>
-     </distributionManagement>
+   </distributionManagement>
+<build>
     <finalName>01-maven-web-app</finalName>
     <plugins>
       <plugin>
