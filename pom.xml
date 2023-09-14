@@ -34,7 +34,6 @@
 	      <name>web-appSnapshot Nexus Repository</name>
 	      <url>http://65.2.191.203:8081/repository/web-app-snapshot/</url>
 	    </snapshotRepository>
-  <build>
     <finalName>01-maven-web-app</finalName>
     <plugins>
       <plugin>
